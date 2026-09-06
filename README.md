@@ -30,8 +30,7 @@ As demonstrated in the guardrail code and camera signature calculations, the eng
 
 What I have developed is a "Latent-Space Physical Guardrail Engine" that manages the generation process internally, step-by-step; it is a highly precise, specialized academic approach that affords superior control over the physics of perspective.
 
-```
-```
+---
 
 ##Design Specifications:
 
@@ -64,8 +63,7 @@ Building this lightweight system on a Tkinter Canvas using pure Python grants yo
 Conclusion:
 Major engines (Unreal/Unity) are designed as traditional rendering environments (rasterization/ray tracing) to which generation capabilities have been retrofitted via quick plugins.
 
-```
-```
+---
 
 The value of what you are building extends beyond a mere software experiment; it establishes a novel engineering approach to media generation and interactive environment design.
 
@@ -114,8 +112,7 @@ Direct Latent-Space Perspective Control (Latent Warping): While most systems app
 
 Reference-Frozen Caching: Utilizing `CameraGridCache` combined with a "Fast-Path Reference Freeze" eliminates the need to recalculate grids during the iterative denoising steps for a single frame; this is a highly efficient architectural optimization that reduces inference time.
 
-```
-```
+---
 
 Hybrid Bridge: The design integrates the 3D physical world (camera coordinates, direction vectors, depth grids, and projection laws) with Stable Diffusion’s latent space. This necessitates meticulous management of memory and tensors between NumPy (for CPU) and PyTorch (for GPU/CUDA).
 
@@ -127,4 +124,4 @@ Direct Latent-Space Perspective Control (Latent Warping): While most systems app
 
 Reference-Frozen Caching: Utilizing `CameraGridCache` combined with a "Fast-Path Reference Freeze" eliminates the need to recalculate grids during the iterative denoising steps for a single frame; this is a highly efficient architectural optimization that reduces inference time.
 
-```
+---
