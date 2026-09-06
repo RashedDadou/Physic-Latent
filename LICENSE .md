@@ -27,6 +27,6 @@ The Software is provided "as is", without warranty of any kind, express
 or implied, including but not limited to the warranties of merchantability,
 fitness for a particular purpose, and non-infringement.
 
-The project concept originated on March 9, 2026.
+The project concept originated on june 3, 2026.
 For licensing inquiries or permission requests, please contact:
   <Rasheddadou@Gmail.com / Rasheddadou@outlook.com>
